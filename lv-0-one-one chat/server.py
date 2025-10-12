@@ -4,9 +4,11 @@ import threading
 import sys
 from cryptography.fernet import Fernet
 from datetime import datetime
+import os
 
 clients = []
 stop_event = threading.Event()
+
 
 def broadcast(message, sender=None):
     """Send message to all connected clients except sender."""
@@ -16,6 +18,7 @@ def broadcast(message, sender=None):
                 c.sendall(message + b'\n')
             except:
                 pass
+
 
 def recv_loop(conn, fernet, addr):
     """Handle messages from a single client."""
@@ -30,7 +33,11 @@ def recv_loop(conn, fernet, addr):
                 broadcast(fernet.encrypt(b"Chat or room disconnected."), conn)
                 break
 
-            msg = fernet.decrypt(line.rstrip(b'\n')).decode('utf-8')
+            try:
+                msg = fernet.decrypt(line.rstrip(b'\n')).decode('utf-8')
+            except:
+                print(f"[WARN] Failed to decrypt message from {addr}")
+                continue
 
             if msg.strip() == "/quit":
                 print(f"[INFO] {addr} left the room.")
@@ -52,6 +59,25 @@ def recv_loop(conn, fernet, addr):
             pass
 
 
+def load_or_create_key(path):
+    """Load Fernet key from file or generate a new one if invalid/missing."""
+    if os.path.exists(path):
+        try:
+            key = open(path, 'rb').read().strip()
+            Fernet(key)  # validate key
+            return key
+        except Exception:
+            print(f"[WARN] Existing key invalid, generating a new key...")
+    else:
+        print(f"[INFO] Key file not found. Generating a new key...")
+
+    key = Fernet.generate_key()
+    with open(path, 'wb') as f:
+        f.write(key)
+    print(f"[INFO] Generated new Fernet key at {path}")
+    return key
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument('--key', default='shared.key')
@@ -60,12 +86,7 @@ def main():
     p.add_argument('--name', default='Server')
     args = p.parse_args()
 
-    try:
-        key = open(args.key, 'rb').read().strip()
-    except Exception as e:
-        print(f'Failed to read key file: {e}')
-        sys.exit(1)
-
+    key = load_or_create_key(args.key)
     fernet = Fernet(key)
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
