@@ -59,4 +59,4 @@ secutiry commands- /help,/quit,/exit, /room, /rooms-list, etc
     /clear
 
 -------7
-issue it has rotation of key in all the clients i will cange it to session wise so the key rotates from session fernet and client does not have to decifer the hash of each other and make the hash " [WARN] HMAC verification failed for incoming message. Message tampered or key mismatch. " -- error in chat
+issue it has rotation of key in all the clients i will cange it to session wise so the key rotates from session fernet and client does not have to decifer the hash of each other and make the hash " verification failed for incoming message. Message tampered or key mismatch. " -- error in chat
