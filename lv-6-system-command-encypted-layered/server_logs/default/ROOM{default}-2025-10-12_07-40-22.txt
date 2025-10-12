@@ -1,0 +1,8 @@
+[2025-10-12 07:40:29] {jeet} ('127.0.0.1', 62601) :- joined the room
+[2025-10-12 07:40:29] {jeet} ('127.0.0.1', 62601) :- disconnected
+[2025-10-12 07:41:23] {jeet} ('127.0.0.1', 62634) :- joined the room
+[2025-10-12 07:41:23] {jeet} ('127.0.0.1', 62634) :- disconnected
+[2025-10-12 07:41:23] Server :- Failed to broadcast: [WinError 10053] An established connection was aborted by the software in your host machine
+[2025-10-12 07:41:23] Server :- Failed to broadcast: [WinError 10053] An established connection was aborted by the software in your host machine
+[2025-10-12 07:41:33] {jeet} ('127.0.0.1', 62642) :- joined the room
+[2025-10-12 07:41:33] {jeet} ('127.0.0.1', 62642) :- disconnected

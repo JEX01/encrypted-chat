@@ -1,0 +1,58 @@
+[2025-10-12 | 09:57:31] {Guest} ('127.0.0.1', 49972) :- joined the room
+[2025-10-12 | 09:57:32] {Guest} ('127.0.0.1', 49972) :- sent: s
+[2025-10-12 | 09:57:32] {Guest} ('127.0.0.1', 49972) :- sent: ds
+[2025-10-12 | 09:57:32] {Guest} ('127.0.0.1', 49972) :- sent: ds
+[2025-10-12 | 09:57:32] {Guest} ('127.0.0.1', 49972) :- sent: d
+[2025-10-12 | 09:57:33] {Guest} ('127.0.0.1', 49972) :- sent: s
+[2025-10-12 | 09:57:33] {Guest} ('127.0.0.1', 49972) :- Session key rotated.
+[2025-10-12 | 09:57:33] {Guest} ('127.0.0.1', 49972) :- sent: ds
+[2025-10-12 | 09:57:33] {Guest} ('127.0.0.1', 49972) :- sent: d
+[2025-10-12 | 09:57:33] {Guest} ('127.0.0.1', 49972) :- sent: s
+[2025-10-12 | 09:57:33] {Guest} ('127.0.0.1', 49972) :- sent: ds
+[2025-10-12 | 09:57:34] {Guest} ('127.0.0.1', 49972) :- sent: d
+[2025-10-12 | 09:57:34] {Guest} ('127.0.0.1', 49972) :- Session key rotated.
+[2025-10-12 | 09:57:35] {Guest} ('127.0.0.1', 49972) :- sent: s
+[2025-10-12 | 09:57:36] {Guest} ('127.0.0.1', 49972) :- sent: sd
+[2025-10-12 | 09:57:36] {Guest} ('127.0.0.1', 49972) :- sent: s
+[2025-10-12 | 09:57:36] {Guest} ('127.0.0.1', 49972) :- sent: ds
+[2025-10-12 | 09:57:36] {Guest} ('127.0.0.1', 49972) :- sent: d
+[2025-10-12 | 09:57:36] {Guest} ('127.0.0.1', 49972) :- Session key rotated.
+[2025-10-12 | 09:57:37] {Guest} ('127.0.0.1', 49972) :- sent: s
+[2025-10-12 | 09:57:37] {Guest} ('127.0.0.1', 49972) :- sent: sd
+[2025-10-12 | 09:57:37] {Guest} ('127.0.0.1', 49972) :- sent: s
+[2025-10-12 | 09:57:37] {Guest} ('127.0.0.1', 49972) :- sent: ds
+[2025-10-12 | 09:57:39] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:40] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:40] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:40] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:40] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:40] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:41] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:41] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:41] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:41] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:41] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:41] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:42] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:42] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:42] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:42] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:42] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:43] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:43] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:43] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:43] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:50] {Guest} ('127.0.0.1', 49972) :- sent: d'
+[2025-10-12 | 09:57:50] {Guest} ('127.0.0.1', 49972) :- Session key rotated.
+[2025-10-12 | 09:57:51] {Guest} ('127.0.0.1', 49972) :- sent: ;
+[2025-10-12 | 09:57:51] {Guest} ('127.0.0.1', 49972) :- sent: ;
+[2025-10-12 | 09:57:52] {Guest} ('127.0.0.1', 49972) :- sent: ;
+[2025-10-12 | 09:57:52] {Guest} ('127.0.0.1', 49972) :- sent: ;
+[2025-10-12 | 09:57:53] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:53] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:53] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:54] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:54] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:57:54] {Guest} ('127.0.0.1', 49972) :- HMAC verification failed for incoming message.
+[2025-10-12 | 09:58:03] {Guest} ('127.0.0.1', 49972) :- receive loop exited
+[2025-10-12 09:58:19] {Guest} ('127.0.0.1', 49972) :- client exited

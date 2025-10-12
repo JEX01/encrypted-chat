@@ -1,0 +1,31 @@
+[2025-10-12 | 10:07:45] {Guest} ('127.0.0.1', 50557) :- joined the room
+[2025-10-12 | 10:07:46] {Guest} ('127.0.0.1', 50557) :- sent: d
+[2025-10-12 | 10:07:46] {Guest} ('127.0.0.1', 50557) :- sent: sd
+[2025-10-12 | 10:07:46] {Guest} ('127.0.0.1', 50557) :- sent: s
+[2025-10-12 | 10:07:46] {Guest} ('127.0.0.1', 50557) :- sent: d
+[2025-10-12 | 10:07:46] {Guest} ('127.0.0.1', 50557) :- sent: s
+[2025-10-12 | 10:07:46] {Guest} ('127.0.0.1', 50557) :- Session key rotated.
+[2025-10-12 | 10:07:47] {Guest} ('127.0.0.1', 50557) :- sent: ds
+[2025-10-12 | 10:07:47] {Guest} ('127.0.0.1', 50557) :- sent: d
+[2025-10-12 | 10:07:47] {Guest} ('127.0.0.1', 50557) :- sent: s
+[2025-10-12 | 10:07:47] {Guest} ('127.0.0.1', 50557) :- sent: ds
+[2025-10-12 | 10:07:48] {Guest} ('127.0.0.1', 50557) :- sent: ds
+[2025-10-12 | 10:07:48] {Guest} ('127.0.0.1', 50557) :- Session key rotated.
+[2025-10-12 | 10:07:48] {Guest} ('127.0.0.1', 50557) :- sent: d
+[2025-10-12 | 10:07:48] {Guest} ('127.0.0.1', 50557) :- sent: s
+[2025-10-12 | 10:07:48] {Guest} ('127.0.0.1', 50557) :- sent: d
+[2025-10-12 | 10:07:48] {Guest} ('127.0.0.1', 50557) :- sent: s
+[2025-10-12 | 10:07:48] {Guest} ('127.0.0.1', 50557) :- sent: d
+[2025-10-12 | 10:07:48] {Guest} ('127.0.0.1', 50557) :- Session key rotated.
+[2025-10-12 | 10:07:49] {Guest} ('127.0.0.1', 50557) :- sent: s
+[2025-10-12 | 10:07:49] {Guest} ('127.0.0.1', 50557) :- sent: ds
+[2025-10-12 | 10:07:49] {Guest} ('127.0.0.1', 50557) :- sent: d
+[2025-10-12 | 10:07:54] {Guest} ('127.0.0.1', 50557) :- HMAC verification failed for incoming message.
+[2025-10-12 | 10:07:54] {Guest} ('127.0.0.1', 50557) :- HMAC verification failed for incoming message.
+[2025-10-12 | 10:07:54] {Guest} ('127.0.0.1', 50557) :- HMAC verification failed for incoming message.
+[2025-10-12 | 10:07:54] {Guest} ('127.0.0.1', 50557) :- HMAC verification failed for incoming message.
+[2025-10-12 | 10:07:55] {Guest} ('127.0.0.1', 50557) :- HMAC verification failed for incoming message.
+[2025-10-12 | 10:07:55] {Guest} ('127.0.0.1', 50557) :- HMAC verification failed for incoming message.
+[2025-10-12 | 10:07:55] {Guest} ('127.0.0.1', 50557) :- HMAC verification failed for incoming message.
+[2025-10-12 | 10:07:55] {Guest} ('127.0.0.1', 50557) :- HMAC verification failed for incoming message.
+[2025-10-12 | 10:07:55] {Guest} ('127.0.0.1', 50557) :- HMAC verification failed for incoming message.
