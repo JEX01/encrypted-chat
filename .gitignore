@@ -1,7 +1,13 @@
-__pycache__/
-*.pyc
+# Secrets / runtime data
 shared.key
+token.json
+tokens.json
 users.json
+
+# Logs
 server_logs/
 chat_logs/
-.env
+
+# Python
+__pycache__/
+*.pyc

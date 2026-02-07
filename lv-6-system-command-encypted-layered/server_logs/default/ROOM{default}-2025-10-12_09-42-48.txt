@@ -1,3 +1,0 @@
-[2025-10-12 09:42:53] {('127.0.0.1', 65078)} ('127.0.0.1', 65078) :- AUTH ERROR: name 'fernet' is not defined
-[2025-10-12 09:42:59] {('127.0.0.1', 65083)} ('127.0.0.1', 65083) :- AUTH ERROR: name 'fernet' is not defined
-[2025-10-12 09:43:12] {('127.0.0.1', 65094)} ('127.0.0.1', 65094) :- AUTH ERROR: name 'fernet' is not defined
