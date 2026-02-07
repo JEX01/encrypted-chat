@@ -1,3 +1,12 @@
+MY NOTE:-
+this project is a failure in comparison to other variants, but for me it was a step towards encryption and security, and that in itself is the best outcome I hoped for. it’s a chat that can be used on a local network for industry and more widely if using open ports via port forwarding on a router, or by using SSH or other methods like tunneling, VPN, etc. I didn’t fully understand things and took steps that made it worse, and there was no one for me to discuss it with, so just solo playtime with imagination was good enough! good chat and have fun!!!!
+
+mistake:-
+1. terminal:- should have gone for a website; it was much better and more widely used. after using Visual Studio so much, I thought it was cool to chat in the terminal lol. I 2. regret this.
+3. didn't commit continuously :- I was not consistent, which led to repeatition and confusion in code. this decreased productivity and code quality.
+4. played it safe and wasted time in unnecessary things, should have gone all in from start.
+5. and so on
+
 This repository intentionally excludes certain files such as:
 
 runtime logs
