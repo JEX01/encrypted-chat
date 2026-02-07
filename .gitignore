@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+shared.key
+users.json
+server_logs/
+chat_logs/
+.env

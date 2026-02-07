@@ -97,7 +97,27 @@ def recv_loop(sock, fernet, username):
                         break
 
                     # Print message in format [TIME] sender :- message
-                    if ": " in msg:
+                    # Handle server responses to commands
+                    if msg.startswith("SERVER_RESPONSE:"):
+                        response_content = msg.split("SERVER_RESPONSE:", 1)[1].strip()
+                        if response_content.startswith("ROOM_CHANGE_SUCCESS:"):
+                            global current_room
+                            new_room_name = response_content.split("ROOM_CHANGE_SUCCESS:", 1)[1].strip()
+                            current_room = new_room_name
+                            print(f"\r[INFO] Successfully joined room '{current_room}'\n> ", end='', flush=True)
+                        elif response_content.startswith("ROOMS_LIST:"):
+                            rooms_list = response_content.split("ROOMS_LIST:", 1)[1].strip()
+                            print(f"\r[INFO] Available rooms: {rooms_list}\n> ", end='', flush=True)
+                        elif response_content.startswith("USERS_LIST:"):
+                            users_list = response_content.split("USERS_LIST:", 1)[1].strip()
+                            print(f"\r[INFO] Users in current room: {users_list}\n> ", end='', flush=True)
+                        elif response_content.startswith("PRIVATE_MESSAGE:"):
+                            pm_content = response_content.split("PRIVATE_MESSAGE:", 1)[1].strip()
+                            print(f"\r[{datetime.now().strftime('%H:%M:%S')}] {pm_content}\n> ", end='', flush=True)
+                        else:
+                            print(f"\r[SERVER] {response_content}\n> ", end='', flush=True)
+                    # Print message in format [TIME] sender :- message
+                    elif ": " in msg:
                         sender, message = msg.split(": ", 1)
                         print(f"\r[{datetime.now().strftime('%H:%M:%S')}] {sender} :- {message}\n> ", end='', flush=True)
                     else:
@@ -161,14 +181,17 @@ def handle_command(msg, sock, fernet, username):
         return True
 
     elif msg.startswith("/join "):
-        new_room = msg.split(" ", 1)[1].strip()
-        if new_room:
-            current_room = new_room
-            print(f"[INFO] Switched to room '{current_room}'")
-            try:
-                sock.sendall(fernet.encrypt(f"/join {new_room}".encode()) + b'\n')
-            except:
-                pass
+        parts = msg.split(" ", 1)
+        if len(parts) > 1:
+            new_room = parts[1].strip()
+            if new_room:
+                try:
+                    sock.sendall(fernet.encrypt(f"/join {new_room}".encode()) + b'\n')
+                    # Server will confirm room change, client updates current_room in recv_loop
+                except Exception as e:
+                    print(f"[ERROR] Failed to send join command: {e}")
+        else:
+            print("[INFO] Usage: /join <room_name>")
         return True
 
     elif msg == "/rooms":
