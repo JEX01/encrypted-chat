@@ -1,4 +1,20 @@
---0
+This repository intentionally excludes certain files such as:
+
+runtime logs
+user data files (users.json)
+authentication/token files (token.json, tokens.json)
+encryption key material (*.key)
+
+These files are generated at runtime and may contain sensitive or personal data.
+For security, privacy, they are not tracked in version control and have been removed from the repository history.
+
+As a result, the repository may appear to contain fewer files than a full runtime environment, which is expected and intentional.
+
+If required, placeholder or example files can be created locally based on the application logic.
+
+👍👍
+
+level --0
 just one to one
 
 -----1
